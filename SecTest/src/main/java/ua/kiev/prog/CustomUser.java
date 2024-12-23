@@ -23,7 +23,7 @@ public class CustomUser {
     private String phone;
     private String address;
 
-    private String fileName; //по имени данного поля будем находить файл на жостком диске
+    private String fileName; //за ім'ям поточного поля будемо знаходити файл на жорсткому диску
 
     public CustomUser(String login, String password, UserRole role,
                       String email, String phone, String address) {
